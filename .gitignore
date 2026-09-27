@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Dataset
+dataset/
+*.tsv
+*.csv
+
+# Processed data
+processed/
+*.parquet
+*.duckdb
+*.db
+
+# DuckDB temporary files
+duckdb_temp/
+**/duckdb_temp/
+
+# Blocking outputs
+candidate_pairs.parquet
+final_candidates.parquet
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
